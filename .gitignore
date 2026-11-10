@@ -7,3 +7,12 @@ __pycache__/
 db.sqlite3
 .vscode/
 node_modules/
+
+# Claves y certificados
+*.pem
+*.key
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
