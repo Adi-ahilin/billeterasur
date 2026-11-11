@@ -7,6 +7,8 @@ __pycache__/
 db.sqlite3
 .vscode/
 node_modules/
+dist/
+
 
 # Claves y certificados
 *.pem
