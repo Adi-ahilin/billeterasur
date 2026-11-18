@@ -1,0 +1,5 @@
+@'
+# Rechaza versiones publicadas hace menos de 7 días (RS-15).
+# Los paquetes maliciosos suelen detectarse y retirarse dentro de esa ventana.
+minimumReleaseAge: 10080
+'@ | Set-Content -Encoding utf8 .\pnpm-workspace.yaml
